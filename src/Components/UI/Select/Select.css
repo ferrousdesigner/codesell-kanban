@@ -1,0 +1,15 @@
+select,
+.ui-select {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  height: var(--button-height);
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--header-font-color);
+  background-color: var(--foreground-color);
+  cursor: pointer;
+  transition: var(--transition-quick);
+  font-size: 1rem;
+}

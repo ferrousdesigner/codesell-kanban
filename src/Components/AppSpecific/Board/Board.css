@@ -1,0 +1,59 @@
+.ui-board {
+  min-height: 100vh;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding: 3rem 3rem;
+  padding-top: 6.2rem;
+  display: flex;
+}
+.ui-board-column {
+  max-width: 350px;
+  min-width: 350px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  overflow-x: hidden;
+}
+
+.board-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.ui-board-action {
+  display: flex;
+  justify-content: center;
+}
+.ui-board-action > button {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.ui-board-header {
+  margin-left: 1rem;
+  font-weight: bold;
+  color: var(--header-font-color);
+  margin-right: 1rem;
+}
+
+.board-header-info-left {
+  display: inline-flex;
+  align-items: center;
+}
+.board-header .ui-task-content-icon {
+  margin-right: 0;
+  margin-top: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ui-board {
+    padding: 3rem 1rem;
+    padding-top: 6rem;
+  }
+}

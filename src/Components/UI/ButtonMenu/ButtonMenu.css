@@ -1,0 +1,25 @@
+.ui-button-menu-button .ui-button-menu-right-icon {
+  margin-left: 1rem;
+  display: inline-block;
+}
+
+.ui-button-menu-button .ui-button-menu-left-icon {
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.ui-button-menu {
+  position: relative;
+}
+.ui-button-menu-options {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateY(calc(100% + 1rem));
+  min-width: 20rem;
+  background-color: var(--middleground-color);
+  border: 1px solid var(--border-color);
+  padding: 1rem 1.5rem;
+  box-shadow: 0 0.5rem 1rem var(--shadow-color);
+  border-radius: var(--border-radius-big);
+}

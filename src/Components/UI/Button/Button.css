@@ -1,0 +1,28 @@
+button,
+.ui-button {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  height: var(--button-height);
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--header-font-color);
+  background-color: var(--foreground-color);
+  box-shadow: 0 0.1rem 0.5rem var(--shadow-color);
+  cursor: pointer;
+  transition: var(--transition-quick);
+  font-size: 1.2rem;
+}
+
+button:hover,
+.ui-button:hover {
+  background-color: var(--background-color);
+}
+
+button > * {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}
